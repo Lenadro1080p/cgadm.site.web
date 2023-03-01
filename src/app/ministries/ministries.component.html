@@ -1,0 +1,80 @@
+<div class="container conteudo">
+
+    <div class="out-ministries">
+        <h6>MINISTRIES</h6>
+        <h2>Our Ministries</h2>
+        <img src="../../assets/img/icones/linha-vemalhar-centro-branco.png" alt="">
+    </div>
+
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1 ">
+            <div class="container-slider-single ">
+                <div class="card poster">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/childrens_ministry-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body conteudo-poster">
+                        <h5 class="card-title">Children's Ministres</h5>
+                        <p>Childre's ministry is the most important
+                            ministry in our church. this ministry helps
+                            kids learn about the Lord
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-2">
+            <div class="container-slider-single ">
+                <div class="card poster">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/women_ministry-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body conteudo-poster">
+                        <h5 class="card-title">Children's Ministres</h5>
+                        <p>Childre's ministry is the most important
+                            ministry in our church. this ministry helps
+                            kids learn about the Lord
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-3">
+            <div class="container-slider-single ">
+                <div class="card poster">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/global_ministry-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body conteudo-poster">
+                        <h5 class="card-title">Children's Ministres</h5>
+                        <p>Childre's ministry is the most important
+                            ministry in our church. this ministry helps
+                            kids learn about the Lord
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-4">
+            <div class="container-slider-single ">
+                <div class="card poster">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/music_ministry-2.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body conteudo-poster">
+                        <h5 class="card-title">Children's Ministres</h5>
+                        <p>Childre's ministry is the most important
+                            ministry in our church. this ministry helps
+                            kids learn about the Lord
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ngx-slick-carousel>
+</div>

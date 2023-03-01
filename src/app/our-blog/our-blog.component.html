@@ -1,0 +1,63 @@
+<div class="container conteudo">
+
+    <div class="out-ministries">
+        <h6>OUR BLOG</h6>
+        <h2>Latest Posts</h2>
+        <img src="../../assets/img/icones/linha-vemalhar-centro-branco.png" alt="">
+    </div>
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1 ">
+            <div class="container-slider-single ">
+                <div class="card">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/church_theme_blog_9-1-768x600.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Giving Back – Uganda Training Centers</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-2">
+            <div class="container-slider-single ">
+                <div class="card">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/church-theme-blog-7-1-768x600.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirit Of The Lord Is, From The New Life</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-3">
+            <div class="container-slider-single ">
+                <div class="card">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/blog-maso-3-768x600.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirit Of The Lord Is, From The New Life</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-4">
+            <div class="container-slider-single">
+                <div class="card">
+                    <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/church-theme-blog-1-1-768x600.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirit Of The Lord Is, From The New Life</h5>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ngx-slick-carousel>
+</div>

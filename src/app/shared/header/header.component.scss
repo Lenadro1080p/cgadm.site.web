@@ -1,0 +1,141 @@
+.icon-location {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.icon-location img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.size-icons-social-networks {
+    margin-bottom: -8px;
+    margin-top: -7px;
+    border-left: 1px solid #f2f2f212;
+}
+
+.size-icons-social-networks img {
+    width: 17px;
+    margin: 23px 18px;
+}
+
+.networks {
+    border-right: 1px solid #f2f2f212;
+}
+
+.social-network-icons-magnifying-glass {
+    margin-left: 45px;
+}
+
+.social-network-icons-magnifying-glass img {
+    transform: scaleX(-1);
+    width: 18px;
+    position: relative;
+    bottom: -9px;
+}
+
+.logo img {
+    width: 190px;
+    padding: 10px;
+}
+
+.header {
+    z-index: 1;
+    border-bottom: 1px solid #f2f2f212;
+}
+
+.header-2 {
+    z-index: 1;
+}
+
+.header-2 p {
+    font-family: 'Poppins';
+    font-weight: 600;
+    position: relative;
+    bottom: -8px;
+    color: aliceblue;
+    transition: 0s;
+}
+
+.header-2 span {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 6px;
+    position: relative;
+    bottom: -1px;
+}
+
+.header-2 p:hover {
+    color: #bf0a30 !important;
+}
+
+.header-2 button {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+    padding: 11px 25px;
+    background-color: #bf0a30;
+    border-radius: 4px;
+    border: 1px solid #bf0a30;
+}
+
+.header-2 button:hover {
+    background-color: #d13c5c !important;
+}
+
+.mobile {
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 160px;
+    text-align: center;
+    
+    img {
+        width:160px;
+        padding: 15px;
+    }
+}
+
+.conteudo-mobile {
+    z-index: 1;
+}
+
+.logo-mobile img {
+    width: 180px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.secoes-mobile {
+    text-align: left;
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+
+    span {
+        margin-left: 150px;
+        font-size: 25px;
+        font-family: 'Poppins';
+        font-weight: 400;
+    }
+}
+
+.logo-img {
+    img {
+        width: 140px;
+        margin-left: 60px;
+    }
+}
+
+.lupa-mobile {
+    img {
+        width: 33px;
+        position: relative;
+        left: 40px;
+    }
+}

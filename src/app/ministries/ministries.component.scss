@@ -1,0 +1,165 @@
+.container-slider-single {
+    padding: 100px;
+}
+
+.container-slider {
+    overflow: hidden;
+}
+
+.container-slider-primario {
+    overflow: hidden;
+}
+
+.container-slider-segundo {
+    overflow: hidden;
+}
+
+.container-slider-single {
+    float: left;
+    padding: 15px;
+}
+
+.slick-dotted ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+}
+
+.slick-dotted li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+    outline: 0;
+}
+
+.slick-dotted li button {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button {
+    background: #7f1c1c;
+    color: #3b0404;
+}
+
+.slick-slide:focus {
+    outline: none;
+}
+
+.depoimentos {
+    margin-top: 100px;
+}
+
+.out-ministries {
+    text-align: center;
+}
+
+.out-ministries img {
+    width: 80px;
+    margin: -8px auto 30px auto;
+}
+
+.out-ministries h2 {
+    margin-bottom: 30px;
+    font-size: 33px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.out-ministries h6 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 110px;
+    color: rgb(60, 85, 85);
+}
+
+.container-slider-single a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #7f1c1c;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+
+.container-slider-single h5 {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.card {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.139);
+    border: none;
+}
+
+.card-body {
+    margin: 20px 10px 20px 10px;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.poster {
+    border-radius: 10px;
+    border-bottom: 4px solid #7f1c1c;
+}
+
+.poster img {
+    border-radius: 10px 10px 0 0;
+}
+
+.conteudo-poster {
+    padding: 20px 24px;
+}
+
+.conteudo-poster p {
+    color: rgba(98, 85, 79, 0.676);
+}
+
+.fundo-latest {
+    margin-top: -50px;
+}
+
+
+.festividades {
+    margin-top: -50px;
+}
+
+.area-conteudo {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.festas-igreja img {
+    width: 300px;
+    padding: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.festas-igreja a {
+    font-weight: 700;
+    text-decoration:dotted;
+}
+
+
+
+

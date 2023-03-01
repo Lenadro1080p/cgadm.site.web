@@ -1,0 +1,147 @@
+.banner {
+    margin-top: -162px;
+}
+
+.banner-mobile {
+    margin-top: -16px;
+}
+
+.banner img {
+    z-index: 0;
+}
+
+.apresentacao {
+    margin: 180px auto;
+}
+
+.apresentacao h6 {
+    font-size: 21px;
+    color: #bf0a30;
+    margin: 15px auto;
+}
+
+.apresentacao h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.apresentacao p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.carousel-item {
+    height: 800px;
+    background-size: cover;
+}
+
+.imagem-banner-teste {
+    background-image: url(../../../assets/img/banner/banner-carrossel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.botao-carrossel-voltar button {
+    background-color: #0f0f10;
+    width: 70px;
+    height: 70px;
+    margin-top: 370px;
+    margin-left: 16%;
+    border-radius: 100%;
+}
+
+.botao-carrossel-avancar button {
+    background-color: #0f0f10;
+    width: 70px;
+    height: 70px;
+    margin-right: 16%;
+    margin-top: 370px;
+    border-radius: 100%;
+}
+
+.botao-carrossel-voltar-mobile button {
+    background-color: #0f0f10;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 370px;
+    border-radius: 100%;
+}
+
+.botao-carrossel-avancar-mobile button {
+    background-color: #0f0f10;
+    width: 70px;
+    height: 70px;
+    margin-right: 100px;
+    margin-top: 370px;
+    border-radius: 100%;
+}
+
+
+
+.botao-v {
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.espaco-conteudo {
+    background-color: #0f0f10;
+    z-index: -1;
+}
+
+.apresentacao {
+    img {
+        width: 70px;
+    }
+}
+
+.button-banner {
+    button {
+        margin-top: 15px;
+        padding: 11px 40px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        border-radius: 4px;
+        background-color: #bf0a30;
+        border: 1px solid #bf0a30;
+    }
+
+    button:hover {
+        background-color: #d13c5c !important;
+    }
+}
+
+.apresentacao-header-2 {
+    margin: 40px auto;
+}
+
+.apresentacao-header-2 h6 {
+    font-size: 21px;
+    color: #bf0a30;
+    margin: 15px auto;
+}
+
+.apresentacao-header-2 img {
+    width: 150px;
+}
+
+.apresentacao-header-2 h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.apresentacao-header-2 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+

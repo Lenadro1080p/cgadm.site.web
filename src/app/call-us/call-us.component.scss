@@ -1,0 +1,111 @@
+.font-poppins {
+    margin-top: -25px;
+}
+
+.button-sobre {
+    button {
+        margin: 13px auto;
+        padding: 13px 40px;
+    }
+}
+
+.banner-conteudo-final {
+    margin-top: 100px;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../../assets/img/banner/contact-bg-1.jpg);
+}
+
+.elementor-shape-fill {
+    fill: #fff;
+    transform-origin: center;
+    transform: rotateY(0deg);    
+}
+
+.elementor-shape[data-negative=false].elementor-shape-bottom,.elementor-shape[data-negative=true].elementor-shape-top {
+    transform: rotate(180deg)
+}
+
+.elementor-shape-bottom {
+    position: relative;
+    bottom: -1px;
+}
+
+.banner-conteudo-final h4{
+    text-align: left;
+}
+
+.quatrado-vermelho {
+    background-color: #ad2222;
+    width: 100%;
+    height: 420px;
+    margin-top: -30px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 100px;
+}
+
+.quatrado img {
+    width: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.quatrado {
+    margin-right: 10px;
+}
+
+.image-vermelha img {
+    width: 70px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.informacoes-banner button{
+    margin-bottom: 10px;
+}
+
+.informacoes-banner h6{
+    margin-top: 40px;
+    margin-bottom: -27px;
+    color: #ad2222;
+}
+
+.informacoes-banner h2{
+    margin-top: 40px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.informacoes-banner p{
+    
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
